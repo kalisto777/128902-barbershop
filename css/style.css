@@ -1,0 +1,15 @@
+body {
+	font-size: 10px;
+	line-height: normal;
+	color: black;
+	font-weight: bold;
+	font-family: "PT Sans";
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 15px;
+}
