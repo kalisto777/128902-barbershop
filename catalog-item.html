@@ -6,7 +6,7 @@
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<header class="main-header">
+		<header class="main-header clearfix">
 			<div class="logo">
 				<img scr="img/logo_barbershop.svg" width="111" height="24" alt="Барбершоп">
 			</div>
@@ -35,10 +35,10 @@
 				</div>
 			</div>
 		</header>
-		<main class="container">
-			<h1>Средства для ухода</h1>
+		<main class="container clearfix">
 			<div class="breadcrumbs">
-				<ul>
+				<h1>Средства для ухода</h1>
+				<ul cass="breadcrumbs-item">
 					<li class="breadcrumbs-home">
 						<a class="home" href="#">Главная</a>
 					</li>
@@ -52,24 +52,26 @@
 					</li>
 				</ul>
 			</div>
-			<div class="wrapper">
-				<div class="product-top">
-					<img src="img/bar_item_1.jpg" width="460" height="498">
+			<div class="wrapper clearfix">
+				<div class="image-product clearfix">
+					<div class="product-top">
+						<img src="img/bar_item_1.jpg" width="460" height="498">
+					</div>
+					<div class="product-rest">
+						<ul class="product-list">
+							<li class="product-view">
+								<img src="img/bar_item_2.jpg" width="140" height="149">
+							</li>
+							<li class="product-view">
+								<img src="img/bar_item_3.jpg" width="140" height="149">
+							</li>
+							<li class="product-view">
+								<img src="img/bar_item_4.jpg" width="140" height="149">
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="product-rest">
-					<ul class="product-list">
-						<li class="product-view1">
-							<img src="img/bar_item_2.jpg" width="140" height="149">
-						</li>
-						<li class="product-view2">
-							<img src="img/bar_item_3.jpg" width="140" height="149">
-						</li>
-						<li class="product-view3">
-							<img src="img/bar_item_4.jpg" width="140" height="149">
-						</li>
-					</ul>
-				</div>
-				<div class="description">
+				<div class="description clearfix">
 					<div class="description-presence">
 						<div class="presence">
 							<p>Есть в наличии</p>
@@ -78,7 +80,9 @@
 							<p>АРТИКУЛ:DEXTER-AE</p>
 						</div>
 					</div>
-					<p>TRAVEL KIT - необходимый аксессуар во время любого путешествия. В аккуратной кожанной сумке есть все, что нужно для бритья  ухода за кожей во время рабочей поездкиили отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор так же может стать отличным подарком.</p>
+					<div class="about-product">
+						TRAVEL KIT - необходимый аксессуар во время любого путешествия. В аккуратной кожанной сумке есть все, что нужно для бритья  ухода за кожей во время рабочей поездкиили отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор так же может стать отличным подарком.
+					</div>
 					<div class="description-buy">
 						<div class="price">
 							<p>2 900 руб.</p>
@@ -87,21 +91,21 @@
 							<a class="cart" href="#">Купить</a>
 						</div>
 					</div>
+					<div class="composition">
+						<h2>В набор входят</h2>
+						<ul>
+							<li>Средство для умывания (50 мл)</li>
+							<li>Увлажняющий крем (50 мл)</li>
+							<li>Крем для бритья (50 мл)</li>
+							<li>Крем после бритья, шампунь (50 мл)</li>
+							<li>Удобная кожанная косметичка</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-			<div class="composition">
-				<h2>В набор входят</h2>
-				<ul>
-					<li>Средство для умывания (50 мл)</li>
-					<li>Увлажняющий крем (50 мл)</li>
-					<li>Крем для бритья (50 мл)</li>
-					<li>Крем после бритья, шампунь (50 мл)</li>
-					<li>Удобная кожанная косметичка</li>
-				</ul>
 			</div>
 		</main>
 		<footer class="main-footer">
-      		<div class="container">
+      		<div class="container clearfix">
         		<section class="footer-contacts">
           			Барбершоп «Бородинский»<br>
           			Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

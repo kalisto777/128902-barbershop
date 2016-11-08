@@ -13,3 +13,191 @@ h1 {
 h2 {
 	font-size: 15px;
 }
+
+/*общие свойства*/
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+  	padding: 0 10px;
+}
+
+.main-header {
+  	margin-bottom: 55px;
+  	background-color: #f0c2d1;
+}
+
+.logo {
+	float: left;
+	width: 150px;
+	background-color: #c2cef0;
+}
+
+.main-navigation {
+	float:left;
+	width: 650px;
+	background-color: #c2cef0;
+}
+
+.user-block {
+  	float: right;
+  	width: 140px;
+  	background-color: #c2cef0;
+  }
+
+.breadcrumbs {
+	background-color: #f377c9;
+	margin-bottom: 55px;
+}
+
+/*catalog.html*/
+
+.container-main {
+
+	background-color: #c2f0ee;
+
+}
+.search {
+	float: left;
+	width: 218px;
+	margin-right: 23px;
+	background-color: #c6f0c2;
+}
+
+.producers {
+	float: left;
+	margin-bottom: 52px;
+	background-color: #f0c2ef;
+}
+
+.goods {
+	float: left;
+	background-color: #f0c2ef;
+	margin-bottom: 52px;
+}
+
+.layout-view {
+	float: left;
+}
+
+.range {
+	float: right;
+	width: 700px;
+	padding-right: 10px;
+	background-color: #f0cfc2;
+}
+
+.product {
+	float: right;
+	width: 220px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.product:nth-child(3),
+.product:nth-child(6) {
+	margin-left: 0px;	
+}
+
+.pages {
+	float: left;
+	width: 300px;
+	margin-top: 45px;
+	background-color: #c6f0c2;
+}
+
+/*catalog-item.html*/
+
+.image-product {
+	float: left;
+	width: 460px;
+	background-color: ##c6f0c2;
+}
+
+.product-top {
+	float:left;
+	min-height: 500px;
+	margin-bottom: 22px;
+	background-color: #f5f4c8;
+}
+
+.product-rest {
+	margin-left: -40px;
+}
+.product-view {
+	float: left;
+	width: 140px;
+	min-height: 150px;
+	margin-right: 20px;
+	background-color: #f5f4c8;
+}
+
+.product-view:last-child {
+	margin-right: 0px;
+}
+
+.wrapper {
+	background-color: #c2cef0;
+	margin-bottom: 10px;
+}
+
+.description {
+	float: right;
+	width: 400px;
+	background-color: #f5d2c8;
+}
+
+.description-presence {
+	float: left;
+	margin-bottom: 40px;
+	background-color: #c8dff5;
+}
+
+.about-product {
+	float: left;
+	margin-bottom: 40px;
+	background-color: #cfc8f5;
+}
+
+.description-buy {
+	float: left;
+	margin-bottom: 65px;
+	background-color: #e2c8f5;
+}
+
+.composition {
+	float: left;
+	background-color: #f2c8f5;
+}
+
+/*общие свойства*/
+
+.main-footer {
+  	margin-top: 49px;
+  	padding-top: 60px;
+  	padding-bottom: 40px;
+  	background-color: #f0c2d1;
+}
+
+.footer-contacts {
+  	float: left;
+  	width: 320px;
+  	margin-right: 60px;
+}
+
+.footer-social {
+  	float: left;
+  	width: 180px;
+}
+
+.footer-copyright {
+  	float: right;
+  	width: 180px;
+}
+
+
